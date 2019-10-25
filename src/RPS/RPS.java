@@ -1,16 +1,18 @@
 package RPS;
 
 import java.util.List;
+
+
 import java.util.ArrayList;
 
-class HelloWorld {
+class RPS {
     Input in = new Input();
     public static void main(String[] args) {
-        HelloWorld helloworld = new HelloWorld();
-        helloworld.RPS();
+        RPS rps = new RPS();
+        rps.run();
     }
 
-    private void RPS() {
+    private void run() {
         Player p1 = new Player("Jaden");
         Player p2 = new Player("Phong");
         List<Player> players = new ArrayList<Player>();
