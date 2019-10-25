@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RPS",
+            "request": "launch",
+            "mainClass": "RPS.RPS",
+            "projectName": "4Fun_d06059dd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HelloWorld",
             "request": "launch",
             "mainClass": "RPS.HelloWorld",
